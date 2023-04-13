@@ -1,0 +1,14 @@
+{
+    "name": "vladsigopka/www",
+    "description": "practic",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vlad",
+            "email": "vlad.tereshhenko.00@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
