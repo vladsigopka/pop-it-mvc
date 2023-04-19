@@ -6,19 +6,22 @@
     "authors": [
         {
             "name": "vlad",
-            "email": "vlad.tereshhenko.00@mail.ru"
+            "email":"vlad.tereshhenko.00@mail.ru"
         }
     ],
     "minimum-stability": "dev",
+
     "require": {
-        "php": "^7.4 | ^8.0"
+        "php": "^7.4 | ^8.0",
+        "illuminate/database": "10.x-dev",
+        "illuminate/events": "10.x-dev"
     },
+
     "autoload": {
         "psr-4": {
-            "Src\\": "core/Src/",
+            "Src\\": "core/src/",
             "": "app/"
         }
     }
-
 
 }
