@@ -3,7 +3,7 @@
         'name' => 'vladsigopka/www',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '790bd0642f98c6e6f20f2b6cbca9c69947b25b05',
+        'reference' => 'f239031bffc25d8096bd0e4038ae64f29a2690f1',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -129,6 +129,17 @@
             ),
             'dev_requirement' => false,
         ),
+        'nikic/fast-route' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '34128a32009e1b41c4615bcd7d4c39968931e9ea',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../nikic/fast-route',
+            'aliases' => array(
+                0 => '2.0.x-dev',
+            ),
+            'dev_requirement' => false,
+        ),
         'psr/container' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
@@ -208,7 +219,7 @@
         'vladsigopka/www' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '790bd0642f98c6e6f20f2b6cbca9c69947b25b05',
+            'reference' => 'f239031bffc25d8096bd0e4038ae64f29a2690f1',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
